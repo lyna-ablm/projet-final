@@ -21,49 +21,68 @@ cursor: pointer;
     position: absolute;
     top: 20px;
     left: 90px;
-    color: rgb(255, 192, 97);
+    color: rgb(250, 202, 131);
  
     h6{
         font-family: "Sevillana", cursive;
         position: absolute;
         top: 11px;
-        left: 160px;
+        left: 150px;
         
     }
      h1{
         font-family: "Baskervville SC", serif;
     }
+    
 }
 .navbar{
     background-color: black;
     height: 80px;
     width: 100%;
-    position: -webkit-sticky; /* Pour les navigateurs WebKit comme Safari */
+
     position: sticky;
     top: 0; /* Positionne la navbar en haut */
     z-index: 1000; /* Assure que la navbar reste au-dessus du contenu */
     box-shadow: 1px 9px 20px -6px rgba(0,0,0,0.86);
 -webkit-box-shadow: 1px 9px 20px -6px rgba(0,0,0,0.86);
 -moz-box-shadow: 1px 9px 20px -6px rgba(0,0,0,0.86);
+      img{
+        
+        height: 60px;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+      }
 }
 ul:first-child{
-    margin-left: 700px;
+    margin-left: 800px;
 
 }
 #t{
     color: #fffed5;
-   margin-top: 30px;
-   
+   margin-top: 40px;
    margin-right: 40px;
    font-size: larger;
    padding-bottom: 5px;
 }
 #t:hover{
-    border-bottom: 2px  rgb(255, 192, 97) solid;
+    border-bottom: 2px  rgb(250, 202, 131) solid;
 }
 .text{
-    color: #ffff;
-    h3{
+    color: white;
+}
+.sujet{
+   position: absolute;
+   left: 30px;
+   width: 800px;
+    
+}
 
-    }
+#swiper img{
+    height: 100%;
+    max-width: 500px;
+    object-fit: cover;
+}
+p{
+    color: white;
 }

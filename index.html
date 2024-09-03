@@ -3,48 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>pharmaly</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- pour l icon menu -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
         </style>
+        <!-- font du h6 -->
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Sevillana&display=swap');
-            </style>
+            </style> 
+            <!-- font du h1  -->
+             <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+ 
     <div class="navbar">
        
         <ul>
            
-            <li style="display: flex; justify-content: center; align-items: center;" id="title"><h1>  Pharmacie  <h6 style="margin-top: 10px; margin-left: 5px;">Mohabeddin</h6></h1></li>
+            <li style="display: flex; justify-content: center; align-items: center;" id="title"><h1>  Pharmaly  <h6 style="margin-top: 10px; margin-left: 5px;">Mohabeddin</h6></h1></li>
           
-            <li id="t">Home Page</li>
-            <li id="t">Products</li>
-            <li id="t">About Us</li>
-            <i class="bx bx-menu"></i>   
+            <a href="" id="t"><li>Home</li></a>
+            <a href="products.html" id="t"><li>Products</li></a>
+            <a href="aboutus.html" id="t"><li>About us</li></a>
+            <i id="t" class="bx bx-menu"></i >   
         </ul>
+        <img src="./images/images.jpg" alt="pharmaly">
     </div>
-    <br>
-    <br>
-    <br>
-    <div class="text">
-            <h3>Votre Pharmacie de Proximité : Plus Qu'un Simple Service</h3>
-            <br>
-<h4>Un Accompagnement Personnalisé</h4>
-<p1>Bienvenue dans notre pharmacie, où votre santé et votre bien-être sont notre priorité absolue. Nous nous engageons à vous offrir un accompagnement personnalisé, adapté à vos besoins spécifiques. Notre équipe de pharmaciens expérimentés est là pour vous conseiller, vous orienter, et répondre à toutes vos questions concernant vos prescriptions et vos besoins en santé.</p1>
-
-
-<h4>Des Produits de Qualité</h4>
-<p>Nous proposons une vaste gamme de produits pharmaceutiques, allant des médicaments sur ordonnance aux produits en vente libre, ainsi qu'une sélection soignée de produits de santé et de bien-être. Que vous recherchiez des traitements pour des affections courantes,
-    des compléments alimentaires ou des produits de soins de la peau, vous trouverez chez nous des marques reconnues et des produits de haute qualité.
-    </p>
-
+    <div class="sujet">
+           
     </div>
+      <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="./images/nuxe.jpg" alt="nuxe"></div>
+      <div class="swiper-slide" id="swiper"><img src="./images/products.jpg" alt=""></div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+   <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+<p>
+  <h1>Présentation de Notre Parapharmacie</h1>
+  Bienvenue chez Pharmaly
+  À Pharmaly, nous sommes dédiés à vous offrir un large éventail de produits de santé et de bien-être pour vous aider à mener une vie saine et équilibrée. Située à [lieu], notre parapharmacie est votre destination de choix pour tous vos besoins en matière de soins personnels.
+  
+  <h1>Notre Mission</h1>
+  Notre mission est simple : vous fournir des produits de haute qualité, soigneusement sélectionnés pour leur efficacité et leur sécurité. Nous croyons en une approche holistique de la santé, en combinant le meilleur de la parapharmacie traditionnelle avec les dernières innovations en matière de bien-être.
+  
+  <h1>Nos Services</h1>
+<ul>
+<li>Produits de Santé : Découvrez notre sélection de compléments alimentaires, vitamines, et minéraux pour soutenir votre bien-être général.</li>
+<li>Soins de la Peau : Profitez de notre gamme de soins dermatologiques adaptés à tous les types de peau, incluant crèmes, sérums et nettoyants.</li>
+<li>Hygiène et Soins Personnels : Retrouvez tout ce dont vous avez besoin pour votre routine quotidienne, des produits de bain aux soins capillaires.</li>
+<li>Matériel Médical : Nous offrons également des équipements médicaux essentiels, comme des thermomètres, tensiomètres et dispositifs de gestion du diabète.</li>
+<li>Conseils Personnalisés : Nos experts sont à votre disposition pour vous offrir des conseils personnalisés afin de vous aider à choisir les produits les plus adaptés à vos besoins.</li>
+</ul>
+</p>
 </body>
 <script src="./style.js"></script>
+
 </html>
