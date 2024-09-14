@@ -3,23 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pharmaly</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <!-- pour l icon menu -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
-        </style>
-        <!-- font du h6 -->
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Sevillana&display=swap');
-            </style> 
-            <!-- font du h1  -->
-             <!-- Link Swiper's CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        
+    <title>pharmaly</title>  
+    
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -29,62 +14,99 @@
         <ul>
            
             <li style="display: flex; justify-content: center; align-items: center;" id="title"><h1>  Pharmaly  <h6 style="margin-top: 10px; margin-left: 5px;">Mohabeddin</h6></h1></li>
-          
             <a href="" id="t"><li>Home</li></a>
-            <a href="products.html" id="t"><li>Products</li></a>
-            <a href="aboutus.html" id="t"><li>About us</li></a>
-            <i id="t" class="bx bx-menu"></i >   
+            <a href="./product.html" id="t"><li>Products</li></a>
+            <a href="./aboutus.html" id="t"><li>About us</li></a>
         </ul>
-        <img src="./images/images.jpg" alt="pharmaly">
+        
+        <img src="./images/pharmaly.jpg" alt="pharmaly">
     </div>
-    <div class="sujet">
-           
-    </div>
-      <!-- Swiper -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"> <img src="./images/nuxe.jpg" alt="nuxe"></div>
-      <div class="swiper-slide" id="swiper"><img src="./images/products.jpg" alt=""></div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
-   <!-- Swiper JS -->
- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="./images/various-cosmetics-products-displayed-table-ideal-beauty-skincare-concepts_153912-129726 (1).jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./images/makeup-products-realistic-vector-illustration-260nw-2229102287.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./images/6b1b6f55-3290-11ea-82bb-0eda3a42da3c.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./images/pmv-chamara-dMjkQJs58uo-unsplash-scaled-e1668705176674.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./images2/spa-concept-of-jasmine-oil-with-bath-salt-and-flowers-min.jpg" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev">></button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div> 
+       <h1 style="color: rgb(250, 202, 131);text-decoration: underline;line-height: 2px; font-size: 40px; margin-top: 30px;">
+            Why choose us:
+        </h1>
+        <br>
+        <div style="display: flex;gap: 50px;" class="m">
+        
+            <div style="margin-bottom: 20px;margin-left: 30px">
+                <img style="scale: 0.4;" src="./images2/deliveryBoy.jpg" alt="">
+                <h2 style="color: white; display: flex; flex-direction: column; text-align: start;">36 million+</h2>
+                <h4 style="color: white;">Orders on Pharmeasy till date</h4>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <img style="scale: 0.4;" src="./images2/pincodeServed.jpg" alt="">
+               <h2 style="color: white; display: flex; flex-direction: column; text-align: start;">99000+</h2>  
+               <h4 style="color: white;">Unique items sold last 3 months</h4>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <img style="scale: 0.4;" src="./images2/locationMarker.jpg" alt="">
+                <h2 style="color: white; display: flex; flex-direction: column; text-align: start;">19000+</h2>
+                <h4 style="color: white;">Pin codes serviced last 3 months</h4>
+                
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h1 style="color:rgb(250, 202, 131) ;text-decoration-line: underline;line-height: 2px;font-size: 40px;">Our best seller:</h1> 
+        <div class="skine" style="margin-left: 0;">
+            <table>
+                <tr>
+                    <td>
+                        <img id="bb" src="./image4/drnnkw.jpg" alt="Le Beau">
+                    </td>
+                    <td>
+                        <img id="bb" src="./images/nuxe2.jpg" alt="Belle"> 
+                    </td>
+                    <td>
+                        <img id="bb" src="./image4/nouveautes-de-la-saison-yves-rocher.jpg" alt="Coco">
+                    </td>
+                    <td>
+                        <img id="bb" src="./image4/Typology-2.jpg" alt="Coco">
+                    </td>
+                    <td>
+                        <img id="bb" src="./image4/Peau-Parfaite-Serum-Visage-Collagene-1.jpg" alt="Coco">
+                    </td>
+                </tr>
+            
 
-<p>
-  <h1>Présentation de Notre Parapharmacie</h1>
-  Bienvenue chez Pharmaly
-  À Pharmaly, nous sommes dédiés à vous offrir un large éventail de produits de santé et de bien-être pour vous aider à mener une vie saine et équilibrée. Située à [lieu], notre parapharmacie est votre destination de choix pour tous vos besoins en matière de soins personnels.
-  
-  <h1>Notre Mission</h1>
-  Notre mission est simple : vous fournir des produits de haute qualité, soigneusement sélectionnés pour leur efficacité et leur sécurité. Nous croyons en une approche holistique de la santé, en combinant le meilleur de la parapharmacie traditionnelle avec les dernières innovations en matière de bien-être.
-  
-  <h1>Nos Services</h1>
-<ul>
-<li>Produits de Santé : Découvrez notre sélection de compléments alimentaires, vitamines, et minéraux pour soutenir votre bien-être général.</li>
-<li>Soins de la Peau : Profitez de notre gamme de soins dermatologiques adaptés à tous les types de peau, incluant crèmes, sérums et nettoyants.</li>
-<li>Hygiène et Soins Personnels : Retrouvez tout ce dont vous avez besoin pour votre routine quotidienne, des produits de bain aux soins capillaires.</li>
-<li>Matériel Médical : Nous offrons également des équipements médicaux essentiels, comme des thermomètres, tensiomètres et dispositifs de gestion du diabète.</li>
-<li>Conseils Personnalisés : Nos experts sont à votre disposition pour vous offrir des conseils personnalisés afin de vous aider à choisir les produits les plus adaptés à vos besoins.</li>
-</ul>
-</p>
+                
+       
+        
+        
+        
+
 </body>
 <script src="./style.js"></script>
 
 </html>
+
